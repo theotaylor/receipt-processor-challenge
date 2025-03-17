@@ -1,0 +1,18 @@
+###
+GET http://localhost:3000/receipts/fa109b77-1d3b-46dc-bcfc-366d39e63a2f/points
+
+###
+
+POST http://localhost:3000/receipts/process
+Content-Type: application/json
+
+{
+    "retailer": "Walgreens",
+    "purchaseDate": "2022-01-02",
+    "purchaseTime": "08:13",
+    "total": "2.65",
+    "items": [
+        {"shortDescription": "Pepsi - 12-oz", "price": "1.25"},
+        {"shortDescription": "Dasani", "price": "1.40"}
+    ]
+}
