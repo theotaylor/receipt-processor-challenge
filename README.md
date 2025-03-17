@@ -32,6 +32,8 @@ The points are calculated based on specific rules defined in the challenge requi
 - **Response**: JSON containing the number of points awarded
 - **Example Response**: `{ "points": 13 }`
 
+Additional endpoint documentation can be found in the swagger documentation at http://localhost:3000/api-docs once the server is running.
+
 ## Installation 
 
 ### Installation with Docker
