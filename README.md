@@ -103,8 +103,9 @@ POST http://localhost:3000/receipts/process
 ```
 
 ### Get Points
-```
+
 GET http://localhost:3000/receipts/{id}/points will return:
+```
 {
   "points": 28
 }
