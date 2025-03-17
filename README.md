@@ -32,7 +32,9 @@ The points are calculated based on specific rules defined in the challenge requi
 - **Response**: JSON containing the number of points awarded
 - **Example Response**: `{ "points": 13 }`
 
-## Installation with Docker
+## Installation 
+
+### Installation with Docker
 
 1. Clone the repository with:
 ```
@@ -45,6 +47,21 @@ docker build -t receipt-processor .
 3. Run the Docker container with:
 ```
 docker run -p 3000:3000 receipt-processor
+```
+
+### Installation without Docker
+
+1. Clone the repository with:
+```
+git clone https://github.com/theotaylor/receipt-processor-challenge.git
+```
+2. Install the dependencies with:
+```
+npm install
+```
+3. Start the server with:
+```
+npm start
 ```
 
 ## Usage
